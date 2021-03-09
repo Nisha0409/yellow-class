@@ -7,9 +7,9 @@
 In the project directory, you can run:
 ### `npm install`
 To install node module
-### `npm install masonry-layout --save`
+### `npm install react-masonry-css`
 To install masonary pacckage
-### `npm install infinite-scroll`
+### `npm install --save react-infinite-scroll-component`
 To install infinite scroll package
 
 ### `npm start`
