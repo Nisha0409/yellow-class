@@ -1,0 +1,36 @@
+.masonry-grid {
+  display: grid;
+  gap: 0.5em;
+  grid-template-columns: repeat(auto-fit, minmax(10em,1fr));
+  margin-left: 100px;
+  width: auto;
+}
+
+.masonry-grid_column {
+  padding-left: -30 px;
+  background-clip: padding-box;
+}
+
+/* Styling*/
+.masonry-grid_column > div {
+  background: rgb(22, 21, 13);
+  margin-bottom: -20px;
+}
+@media (max-width: 200px) {
+  .masonry-grid {
+    margin-left: 20px;
+  }
+  .masonry-grid_column {
+    padding-left: 20px;
+  }
+  /* space */
+  .masonry-grid_column > div {
+    margin-bottom: 20px;
+  }
+  div{
+    display:inline-block;
+  }
+  div{
+    width: 100%;
+  }
+}
